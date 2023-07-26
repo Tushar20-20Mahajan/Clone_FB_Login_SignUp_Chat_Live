@@ -1,0 +1,285 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    
+    /* background-color: rgb(240, 242, 245); */
+    background-color: #F0F2F5;
+}
+
+.frontfb{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+   
+}
+.Heading{
+    color: #1877F2;
+    font-family: inherit;
+    font-size: 60px;
+    margin-top: 40px;
+}
+.box{
+    margin-top: 30px;
+    width: 430px;
+    height: 550px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgb(208, 208, 208) 0.5px 0.5px 0.5px 0.5px;
+}
+
+.upperCOntent{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.heading1{
+    text-align: center;
+    font-size: 30px;
+    font-family: inherit;
+    margin-top: 10px;
+}
+
+.para{
+    text-align: center;
+    font-size: 18px;
+    font-family: inherit;
+    margin-top: 10px;
+    color: rgb(138, 138, 138);
+
+
+}
+
+.line11{
+    color:  rgb(138, 138, 138);
+    margin-top: 10px;
+    scale: 1.0;
+}
+
+#fName{
+    
+    margin: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+    padding: 8px 8px;
+    border-radius: 5px;
+    border-color: rgb(232, 232, 232);
+}
+
+#lName{
+    
+    margin: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+    padding: 8px 8px;
+    border-radius: 5px;
+    border-color: rgb(232, 232, 232);
+   
+}
+
+#email{
+    width: 87%;
+    margin: 10px;
+    margin-top: 5px;
+    margin-left: 15px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border-color: rgb(232, 232, 232);
+}
+
+#pass{
+    width: 87%;
+    margin: 10px;
+    margin-top: 5px;
+    margin-left: 15px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border-color: rgb(232, 232, 232);
+}
+
+.birth{
+    margin-left: 15px;
+    font-size: 15px;
+    font-family: inherit;
+    color: rgb(138, 138, 138);
+}
+.dayOfMonth{
+    width: 28%;
+    margin-top: 5px;
+    padding: 10px 5px;
+    color: rgb(55, 55, 55);
+    margin-left: 15px;
+    border-radius: 5px;
+
+}
+.month{
+    width: 28%;
+    margin-top: 5px;
+    padding: 10px 5px;
+    color: rgb(55, 55, 55);
+    margin-left: 15px;
+    border-radius: 5px;
+
+}
+.year{
+    width: 28%;
+    margin-top: 5px;
+    padding: 10px 5px;
+    color: rgb(55, 55, 55);
+    margin-left: 15px;
+    border-radius: 5px;
+
+}
+
+/*Radio Butons*/
+.radio-button-label {
+    display: inline-block;
+    padding:  10px 5px;
+    background-color: #ffffff;
+    border: 1px solid #adacac;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 15px;
+    width: 25.5%;
+}
+
+.radio-button-label input[type="radio"] {
+    display: inline;
+}
+
+.radio-button-label .radio-button {
+    display: inline-block;
+}
+
+.radio-button-label input[type="radio"]:checked + .radio-button {
+    background-color: #007bff;
+    color: #fff;
+}
+
+
+.paragarph{
+    display: flexbox;
+    flex-direction: column;
+    margin-left: 15px;
+    font-size: 12px;
+    font-family: inherit;
+    color: rgb(138, 138, 138);
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+.paragarph a{
+    text-decoration: none;
+    color:#2f547b;
+}
+.paragarph a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.link1 input{
+    position: relative;
+    align-items: center;
+    background-color:#119F16;
+    margin-top: 15px;
+    margin-left: 110px;
+    margin-right: 12px;
+    padding: 1px;
+    border-radius: 5px;
+    width: 50%;
+    border: #FFFFFF;
+}
+
+.link1 input {
+    cursor: pointer;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: inherit;
+}
+
+.link2 {
+    text-align: center;
+    margin: 12px;
+}
+
+.link2 a {
+    color: #1877F2;
+    font-family: inherit;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.link2 a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.a1{
+    text-decoration: none;
+    color: rgb(138, 138, 138);  
+}
+.a1:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.btn {
+    font-size: 18px;
+    padding: 0.5px 4px;
+
+}
+.btn:hover{
+    cursor: pointer;
+}
+
+.languages{
+    margin-left: 250px;
+    padding: 20px 20px;
+    font-size: 13px;
+}
+
+.line2{
+    width: 70%;
+    margin-left: 17.5%;
+}
+
+
+.more{
+    margin-left: 250px;
+    padding: 20px 20px;
+    
+}
+.more a{
+    text-decoration: none;
+    color: rgb(138, 138, 138);
+}
+
+.meta_fb{
+    margin-left: 250px;
+    padding: 20px 20px;
+    font-size: 13px;
+    color: rgb(138, 138, 138);
+    text-decoration: none;
+}
+footer {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+}
+
